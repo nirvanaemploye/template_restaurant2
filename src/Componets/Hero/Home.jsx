@@ -1,6 +1,6 @@
 import HeroImg from "../../assets/hero.png";
 import PrimaryButton from "../Shared/PrimaryButton";
-import Herobg from "../../assets/herobg.png";
+import Herobg from "../../assets/heroBg.png";
 
 const BgStyle = {
   backgroundImage: `url(${Herobg})`,
