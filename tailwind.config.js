@@ -6,14 +6,14 @@ export default {
   ],  theme: {
     extend: {
       colors: {
-        primary: "#E83667",
-        primaryDark: "#BB2C51",
-        secondary: "#21D4B9",
+        primary: "#0CA66A",
+        primaryDark: "#676565",
+        secondary: "#FFA300",
         dark: "#303030",
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
-        cursive: ["Ephesis", "cursive"],
+        montserrat: ["Montserrat", "sans-serif"],
+        arizonia: ["Arizonia", "cursive"],
       },
       container: {
         center: true,
