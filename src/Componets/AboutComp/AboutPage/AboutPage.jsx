@@ -22,7 +22,7 @@ const AboutPage = () => {
             Home{" "}
           </a>
           <p className="text-primary font-semibold"> / </p>
-          <a href="/about" className="text-primary font-semibold">
+          <a href="" className="text-primary font-semibold">
             About
           </a>
         </div>

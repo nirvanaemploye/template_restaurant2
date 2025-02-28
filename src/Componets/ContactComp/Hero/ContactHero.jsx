@@ -18,7 +18,7 @@ const ContactHero = () => {
           <div className="flex flex-row space-x-2">
             <a href="/" className="text-primary font-semibold">Home </a>
             <p className="text-primary font-semibold"> / </p>
-            <a href="/contact" className="text-primary font-semibold">Contact</a>
+            <a href="" className="text-primary font-semibold">Contact</a>
           </div>
         </div>
       </section>
