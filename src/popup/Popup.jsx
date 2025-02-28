@@ -17,18 +17,20 @@ const Popup = ({ showPopup, setShowPopup }) => {
       {showPopup && (
         <div>
           <div className="h-screen w-screen fixed top-0 left-0 bg-black/50 z-50 backdrop-blur-sm font-montserrat">
-            <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-md bg-white rounded-md duration-200 lg:w-[780px] w-[300px] grid grid-cols-1 md:grid-cols-2">
+            <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-md bg-white rounded-md duration-200 lg:w-[780px] w-[300px] grid grid-cols-1 lg:grid-cols-2">
               <div
                 style={bgStyle}
-                className="flex items-center justify-center ps-16 text-5xl font-semibold text-black"
+                className="relative ps-16 text-5xl font-semibold text-black hidden lg:block"
               >
-                <p>Welcome Back!</p>
+                <p className="absolute top-1/3 border-2 my-auto">Welcome Back!</p>
               </div>
-              <div className="p-8">
+
+              {/* Form DiV  */}
+              <div className="lg:p-8 p-6">
                 {/* Header Section */}
                 <div className="flex items-center justify-between">
                   <div>
-                    <h1 className="text-4xl font-bold text-dark">Login</h1>
+                    <h1 className="text-3xl font-bold text-dark">Login</h1>
                   </div>
                   <div>
                     <IoCloseOutline
