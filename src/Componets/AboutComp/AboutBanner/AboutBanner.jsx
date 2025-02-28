@@ -13,7 +13,7 @@ const links = [
 
 const AboutBanner = () => {
   return (
-    <section className="relative container">
+    <section className=" relative container">
       <div className="py-40 grid grid-cols-1 lg:grid-cols-2 gap-10 font-montserrat relative z-20">
         {/* Image Section */}
         <div
@@ -46,7 +46,7 @@ const AboutBanner = () => {
           </div>
 
           {/* Button */}
-          <button className="bg-primary text-white rounded-full px-10 text-xl font-semibold py-4">
+          <button className="bg-primary text-white rounded-full px-10 text-xl font-semibold py-4 hover:scale-110 duration-300">
             Read More
           </button>
         </div>

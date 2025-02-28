@@ -30,13 +30,8 @@ const Health = () => {
               <input type="text" placeholder="Choice Menu" className="p-3" required />
             </div>
             <div className="gap-8 flex flex-col xl:w-9/12">
-              <input
-                type="text"
-                placeholder="Your Address"
-                className="p-3 h-24"
-                required
-              />
-              <button className="bg-secondary py-4">Order Your Meal</button>
+              <textarea placeholder="Your Address" className="p-3" rows={4}  ></textarea>
+              <button className="bg-secondary font-semibold py-4 hover:font-bold duration-200">Order Your Meal</button>
             </div>
           </form>
         </div>

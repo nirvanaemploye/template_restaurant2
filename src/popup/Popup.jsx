@@ -22,7 +22,7 @@ const Popup = ({ showPopup, setShowPopup }) => {
                 style={bgStyle}
                 className="relative ps-16 text-5xl font-semibold text-black hidden lg:block"
               >
-                <p className="absolute top-1/3 border-2 my-auto">Welcome Back!</p>
+                <p className="absolute top-1/3 my-auto">Welcome Back!</p>
               </div>
 
               {/* Form DiV  */}

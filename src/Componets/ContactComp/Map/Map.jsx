@@ -4,11 +4,11 @@ const Map = () => {
   return (
     <>
       <section>
-        <div className="container py-32 flex justify-center px-5">
+        <div className="px-5 py-32 flex justify-center">
           <img 
             src={MapImg} 
             alt="Map showing our location" 
-            className="sm:h-full md:w-full max-w-screen-lg" 
+            className="" 
           />
         </div>
       </section>

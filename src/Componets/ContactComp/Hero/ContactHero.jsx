@@ -16,9 +16,9 @@ const ContactHero = () => {
           Contact
           </h1>
           <div className="flex flex-row space-x-2">
-            <a href="" className="text-primary font-semibold">Home </a>
+            <a href="/" className="text-primary font-semibold">Home </a>
             <p className="text-primary font-semibold"> / </p>
-            <a href="" className="text-primary font-semibold">About</a>
+            <a href="/contact" className="text-primary font-semibold">Contact</a>
           </div>
         </div>
       </section>
