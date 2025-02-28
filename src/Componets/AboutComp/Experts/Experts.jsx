@@ -2,8 +2,8 @@ import { FaFacebookF, FaGoogle } from "react-icons/fa";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { RiWhatsappFill } from "react-icons/ri";
 
-import Allen from "../../../assets/AboutPageImg/Pavan.png";
-import Olivia from "../../../assets/AboutPageImg/khushi.png";
+import Allen from "../../../assets/AboutPageImg/Allen.png";
+import Olivia from "../../../assets/AboutPageImg/Olivia.png";
 
 const ExpertsData = [
   {
