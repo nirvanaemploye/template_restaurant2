@@ -47,7 +47,7 @@ const ResponsiveMenu = ({ isOpen }) => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.3 }}
-          className="absolute top-18 w-full text-center z-30 lg:hidden bg-primary rounded-xl  text-white py-10"
+          className="absolute top-18 w-full text-center z-30 lg:hidden bg-primary rounded-xl text-white py-10"
         >
           <div className="text-xl font-semibold uppercase">
             <ul>
@@ -80,13 +80,13 @@ const ResponsiveMenu = ({ isOpen }) => {
                   </div>
                 </a>
                 {/* dropdown section  */}
-                <div className="hidden group-hover:block text-white/80">
+                <div className="hidden group-hover:block text-white/95 bg-secondary/40 mx-10 rounded-xl">
                   <ul>
                     {Dropdownlink.map(({ id, name, link }) => (
                       <li key={id}>
                         <a
                           href={link}
-                          className=" text-xl w-full inline-block hover:bg-secondary/40 p-2 rounded-md"
+                          className=" text-xl w-full inline-block hover:bg-secondary/40 p-2 rounded-md py-2"
                         >
                           {name}
                         </a>

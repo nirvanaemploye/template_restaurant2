@@ -24,13 +24,13 @@ import Test from "./Componets/AboutComp/Test/Test";
 
 // Contact Components
 import ContactHero from "./Componets/ContactComp/Hero/ContactHero";
-import Schedule from "./Componets/ContactComp/Schedule/schedule";
+import ScheduleHelth from "./Componets/ContactComp/Schedule/Schedul&Helth";
 import Map from "./Componets/ContactComp/Map/Map";
+
 
 // Fruits Components
 import FruitsHead from "./Componets/FruitsPng/FruitsHead/FruitsHead";
 import FruitsGired from "./Componets/FruitsPng/FruitsGired/FruitsGired";
-import ScheduleHelth from "./Componets/ContactComp/Schedule/Schedul&Helth";
 
 // Layout Component to wrap pages
 const Layout = ({ children, HandlePopup }) => (
@@ -61,7 +61,11 @@ const App = () => {
   return (
     <div className="overflow-x-hidden">
       <BrowserRouter>
-        <Popup showPopup={showPopup} setShowPopup={setShowPopup} HandlePopup={HandlePopup} />
+        <Popup
+          showPopup={showPopup}
+          setShowPopup={setShowPopup}
+          HandlePopup={HandlePopup}
+        />
         <Routes>
           {/* Default Route */}
           <Route path="/" element={<Navigate to="/home" />} />
@@ -72,7 +76,7 @@ const App = () => {
             element={
               <Layout HandlePopup={HandlePopup}>
                 <Home />
-                <Banner/>
+                <Banner />
                 <WhyChoose />
                 <About HandlePopup={HandlePopup} />
                 <Benefits />
