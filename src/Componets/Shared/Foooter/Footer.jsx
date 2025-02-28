@@ -7,7 +7,7 @@ import FooterImg from "../../../assets/FooterImg.png";
 
 const Footer = () => {
   return (
-    <div className="bg-white text-white mt-36 text-ellipsis leading-snug">
+    <div className="bg-white text-white mt-44 text-ellipsis leading-snug">
       <div
         data-aos="fade"
         className="container pt-16 rounded-t-3xl"

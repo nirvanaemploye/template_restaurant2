@@ -101,7 +101,7 @@ const Banner = () => {
         data-aos="fade"
         src={strawberry}
         alt="Kiwi"
-        className="absolute hidden sm:block top-1/2 -translate-y-1/3 left-1/3 -translate-x-1/3 opacity-40 sm:opacity-100 max-w-[180px]"
+        className="absolute hidden sm:block top-1/3 pt-10 -translate-y-1/3 left-1/3 -translate-x-1/3 opacity-40 sm:opacity-100 max-w-[180px]"
       />
     </div>
   );

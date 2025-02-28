@@ -52,7 +52,7 @@ const DietPlan = () => {
   return (
     <>
       <section className=" bg-gray-50">
-        <div className="container py-32 font-montserrat">
+        <div className="container py-44 font-montserrat">
           {/* Headung Section  */}
           <div className="text-center">
             <h1 className="text-[40px] font-medium">Diet Plan</h1>
