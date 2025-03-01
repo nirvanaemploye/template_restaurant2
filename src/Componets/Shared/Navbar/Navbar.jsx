@@ -52,7 +52,7 @@ const Navbar = ({ HandlePopup }) => {
                   </div>
 
                   {/* Dropdown Links */}
-                  <div className="absolute hidden group-hover:block z-50 w-[180px] bg-white shadow-md p-2">
+                  <div className="absolute z-[9999] hidden group-hover:block w-[180px] bg-white shadow-md p-2">
                     <ul>
                       {Dropdownlink.map(({ id, name, link }) => (
                         <li key={id}>

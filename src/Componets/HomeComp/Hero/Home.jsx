@@ -5,7 +5,7 @@ import Herobg from "../../../assets/HomePngImg/herobg.png";
 const Home = () => {
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat"
+      className="-z-10 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${Herobg})` }}
     >
       <div className="container mx-auto py-16 sm:py-0">
