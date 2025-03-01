@@ -38,7 +38,7 @@ const Home = () => {
           <div
             data-aos="zoom-in"
             data-aos-delay="600"
-            className="relative z-20 order-1 sm:order-2 lg:p-[42px] p-0"
+            className="relative z-10 order-1 sm:order-2 lg:p-[42px] p-0"
           >
             <img
               src={HeroImg}
