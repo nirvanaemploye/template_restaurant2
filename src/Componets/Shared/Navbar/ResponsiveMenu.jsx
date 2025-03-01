@@ -3,39 +3,15 @@ import { FaCaretDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const navlink = [
-  {
-    id: 1,
-    name: "Home",
-    link: "/home",
-  },
-  {
-    id: 2,
-    name: "About",
-    link: "/about",
-  },
-  {
-    id: 3,
-    name: "Contact",
-    link: "/contact",
-  },
+  { id: 1, name: "Home", link: "/", },
+  { id: 2, name: "About",link: "/about", },
+  { id: 3, name: "Contact", link: "/contact", },
 ];
 
 const Dropdownlink = [
-  {
-    id: 1,
-    name: "Vegetables",
-    link: "#",
-  },
-  {
-    id: 2,
-    name: "Fruits",
-    link: "/Fruits",
-  },
-  {
-    id: 3,
-    name: "Grains",
-    link: "#",
-  },
+  { id: 1, name: "Vegetables", link: "#",},
+  { id: 2, name: "Fruits", link: "/Fruits", },
+  { id: 3, name: "Grains", link: "#", },
 ];
 
 const ResponsiveMenu = ({ isOpen }) => {
