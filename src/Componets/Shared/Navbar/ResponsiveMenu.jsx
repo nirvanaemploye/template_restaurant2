@@ -56,12 +56,12 @@ const ResponsiveMenu = ({ isOpen }) => {
                   <ul>
                     {Dropdownlink.map(({ id, name, link }) => (
                       <li key={id}>
-                        <a
-                          href={link}
-                          className=" text-xl w-full inline-block hover:bg-secondary/40 p-2 rounded-md py-2"
+                        <Link
+                          to={link}
+                          className="inline-block w-full text-xl p-2 rounded-md hover:bg-secondary/20"
                         >
                           {name}
-                        </a>
+                        </Link>
                       </li>
                     ))}
                   </ul>
