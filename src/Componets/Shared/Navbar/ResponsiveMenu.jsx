@@ -3,15 +3,15 @@ import { FaCaretDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const navlink = [
-  { id: 1, name: "Home", link: "/", },
-  { id: 2, name: "About",link: "/about", },
-  { id: 3, name: "Contact", link: "/contact", },
+  { id: 1, name: "Home", link: "/" },
+  { id: 2, name: "About", link: "/about" },
+  { id: 3, name: "Contact", link: "/contact" },
 ];
 
 const Dropdownlink = [
-  { id: 1, name: "Vegetables", link: "#",},
-  { id: 2, name: "Fruits", link: "/Fruits", },
-  { id: 3, name: "Grains", link: "#", },
+  { id: 1, name: "Vegetables", link: "#" },
+  { id: 2, name: "Fruits", link: "/Fruits" },
+  { id: 3, name: "Grains", link: "#" },
 ];
 
 const ResponsiveMenu = ({ isOpen }) => {
@@ -27,22 +27,18 @@ const ResponsiveMenu = ({ isOpen }) => {
         >
           <div className="text-xl font-semibold uppercase">
             <ul>
-              {navlink.map((item) => (
-                <li key={item.id} className="py-2">
+              {navlink.map(({ id, name, link }) => (
+                <li key={id} className="py-2">
                   <Link
-                    to={item.link}
-                    className="md:hidden inline-block hover:text-secondary text-xl font-semibold"
-                  >
-                    {item.name}
-                  </Link>
-                  <a
-                    href={item.link}
+                    to={link}
                     className="hidden md:inline-block hover:text-secondary text-xl font-semibold"
                   >
-                    {item.name}
-                  </a>
+                    {name}
+                  </Link>
                 </li>
               ))}
+
+              {/* Dropdown Menu */}
               <li className="lg:hidden inline-block cursor-pointer group w-full space-2 ">
                 <a
                   href="#"
