@@ -92,7 +92,7 @@ const FruitsGired = () => {
         </div>
 
         
-          <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 gap-y-14 pb-10 " >
+          <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 gap-y-14 pb-10 " >
             {products.map((product) => (
               <div
                 key={product.id}
