@@ -46,7 +46,7 @@ const PrevArrow = ({ onClick }) => (
 );
 
 const TestimonialSlider = () => {
-  const [ setActiveSlide] = useState(0);
+  const [activeSlide, setActiveSlide] = useState(0);
 
   const settings = {
     dots: false,
@@ -68,7 +68,7 @@ const TestimonialSlider = () => {
   };
 
   return (
-    <section className="font-montserrat py-24 text-center">
+    <section className="font-montserrat py-28 text-center">
       <div className="container mx-auto">
         {/* Heading */}
         <div className="mb-10">
@@ -109,3 +109,4 @@ const TestimonialSlider = () => {
 };
 
 export default TestimonialSlider;
+
