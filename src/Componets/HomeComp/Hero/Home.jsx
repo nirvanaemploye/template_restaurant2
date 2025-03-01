@@ -5,7 +5,7 @@ import Herobg from "../../../assets/HomePngImg/herobg.png";
 const Home = () => {
   return (
     <section
-      className="-z-10 bg-cover bg-center bg-no-repeat"
+      className=" relative z-[-1] bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${Herobg})` }}
     >
       <div className="container mx-auto py-16 sm:py-0">
@@ -38,7 +38,7 @@ const Home = () => {
           <div
             data-aos="zoom-in"
             data-aos-delay="600"
-            className="relative z-20 order-1 sm:order-2 lg:p-[42px] p-0"
+            className="relative z-10 order-1 sm:order-2 lg:p-[42px] p-0"
           >
             <img
               src={HeroImg}

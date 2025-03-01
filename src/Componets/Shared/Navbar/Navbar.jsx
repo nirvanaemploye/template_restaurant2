@@ -21,7 +21,7 @@ const Navbar = ({ HandlePopup }) => {
 
   return (
     <>
-      <div data-aos="fade" className="bg-white shadow-md py-3">
+      <div data-aos="fade" className="bg-white shadow-md py-3 ">
         <div className="container flex justify-between items-center">
           {/* Logo */}
           <div className="font-semibold text-3xl">
@@ -58,7 +58,7 @@ const Navbar = ({ HandlePopup }) => {
                         <li key={id}>
                           <Link
                             to={link}
-                            className="block w-full text-xl p-2 rounded-md hover:bg-secondary/20"
+                            className="inline-block w-full text-xl p-2 rounded-md hover:bg-secondary/20"
                           >
                             {name}
                           </Link>
