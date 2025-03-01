@@ -31,7 +31,7 @@ const ResponsiveMenu = ({ isOpen }) => {
                 <li key={id} className="py-2">
                   <Link
                     to={link}
-                    className="hidden md:inline-block hover:text-secondary text-xl font-semibold"
+                    className="inline-block hover:text-secondary text-xl font-semibold"
                   >
                     {name}
                   </Link>
